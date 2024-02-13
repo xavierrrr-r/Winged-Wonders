@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/plants"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_width="369dp"
+        android:layout_height="134.32dp"
+        android:src="@drawable/lovepik_com_401295851_senco_scene_border_2"
+        tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/plants2"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="-2dp"
+        android:layout_width="369dp"
+        android:layout_height="134.32dp"
+        android:src="@drawable/lovepik_com_401295851_senco_scene_border_3"
+        tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/titleRegister"
+        android:layout_width="156dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/register_ek3_string"
+        android:textColor="@color/register_ek3_color"
+        android:textSize="36sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/create_an_account"
+        android:layout_width="139dp"
+        android:layout_height="29.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="102dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/create_an_account_string"
+        android:textColor="@color/register_ek3_color"
+        android:textSize="15.5sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="324dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:hint="@string/full_name_string"
+        android:textColorHint="@color/white"
+        android:padding="11dp"
+        android:textSize="16.5sp"
+        tools:ignore="Autofill,RtlHardcoded,TextFields" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="324dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:hint="@string/email_ek1_string"
+        android:textColorHint="@color/white"
+        android:padding="11dp"
+        android:textSize="16.5sp"
+        tools:ignore="Autofill,RtlHardcoded,TextFields" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="324dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="324dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:hint="@string/password_string"
+        android:padding="11dp"
+        android:textColorHint="@color/white"
+        android:textSize="16.5sp"
+        tools:ignore="Autofill,RtlHardcoded,TextFields" />
+
+    <EditText
+        android:id="@+id/conf_password"
+        android:layout_width="324dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="394dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:hint="@string/confirm_password_string"
+        android:textColorHint="@color/white"
+        android:textSize="16.5sp"
+        android:padding="11dp"
+        tools:ignore="Autofill,RtlHardcoded,TextFields" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="464dp"
+        android:background="@drawable/rectangle_6_shape"
+        android:font="@font/habibi"
+        android:hint="@string/register_ek4_string"
+        android:textColorHint="@color/white"
+        android:textSize="17.5sp"
+        tools:ignore="HardcodedText,UnusedAttribute,DuplicateSpeakableTextCheck" />
+
+    <View   android:id="@+id/line1"
+        android:background="@drawable/line_16_shape"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="553dp"
+        android:layout_width="151dp"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="29dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/or_string"
+        android:textColor="@color/or_color"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+    <View   android:id="@+id/line2"
+        android:background="@drawable/line_17_shape"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="553dp"
+        android:layout_width="151dp"
+        android:layout_height="1dp" />
+
+    <ImageButton
+        android:id="@+id/googleButton"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="590dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/google_logo_9827_1"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/facebookButton"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="590dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/logo_facebookpng_32204_1"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/twitterButton"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="590dp"
+        android:src="@drawable/logo_twitter_png_5860_1"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/altRegisterTxt"
+        android:layout_width="289dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="668dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/have_an_account__login_here_string"
+        android:textColor="@color/don_t_have_an_account__register_here_color"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+</RelativeLayout>

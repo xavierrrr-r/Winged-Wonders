@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- welcome2 colors -->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main">#FFF7EF</color>
+    <color name="_bg__welcome2_ek2_color">#F5F1E6</color>
+    <color name="ellipse_1_color">#F3FF6A</color>
+    <color name="rectangle_6_color">#ffffff</color>
+    <color name="welcome_to_winged_wonders___where_every_feathered_friend_has_a_tale_to_tell__start_exploring_the_beauty_of_birds__color">#044C26</color>
+
+    <!--register colors-->
+    <color name="_bg__register_ek2_color">#F5F1E6</color>
+    <color name="register_ek3_color">#056314</color>
+    <color name="rectangle_7_color">#ffffff</color>
+    <color name="full_name_color">#6E80A9</color>
+    <color name="register_ek4_color">#064B26</color>
+    <color name="or_color">#044C26</color>
+    <color name="don_t_have_an_account__register_here_color">#034422</color>
+    <color name="get_started__color">#003C1C</color>
+
+    <!-- login colors -->
+
+    <color name="_bg__login_ek2_color">#F5F1E6</color>
+    <color name="forgot_your_password__color">#12673A</color>
+    <color name="email_ek1_color">#6E80A9</color>
+    <color name="login_ek3_color">#064B26</color>
+    <color name="login_to_your_account_color">#056314</color>
+    <color name="welcome_back__color">#046313</color>
+
+
+    <!-- settings colors-->
+    <color name="_bg__settings_ek2_color">#F5F1E6</color>
+    <color name="rectangle_16_color">#ffffff</color>
+    <color name="sightings_color">#FFFFFF</color>
+    <color name="settings_ek3_color">#000000</color>
+    <color name="rectangle_24_color">#C3C3C3</color>
+    <color name="rectangle_25_color">#D9D9D9</color>
+    <color name="ellipse_10_color">#73DA96</color>
+    <color name="logout_color">#FF0000</color>
+
+    <color name="mapbox_blue">#4264FB</color>
+
+</resources>

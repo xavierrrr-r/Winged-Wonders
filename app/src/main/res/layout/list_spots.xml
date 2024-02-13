@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="4dp"
+android:background="@color/main"
+android:orientation="vertical">
+
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:layout_marginTop="16dp"
+    android:fontFamily="@font/habibi"
+    android:text="My List:"
+    android:textColor="@color/get_started__color"
+    android:textSize="20dp"
+    tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+
+<TextView
+    android:id="@+id/idk1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/get_started__color"
+    android:textStyle="bold"
+    tools:ignore="VisualLintOverlap" />
+
+<TextView
+    android:id="@+id/idk2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/get_started__color"
+    tools:ignore="VisualLintOverlap" />
+
+<TextView
+    android:id="@+id/idk3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/get_started__color"
+    />
+
+</RelativeLayout>

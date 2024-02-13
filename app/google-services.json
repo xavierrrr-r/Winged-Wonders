@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046978189654",
+    "firebase_url": "https://wingedwonders-2bb85-default-rtdb.firebaseio.com",
+    "project_id": "wingedwonders-2bb85",
+    "storage_bucket": "wingedwonders-2bb85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046978189654:android:144b9baa977ab09decdef7",
+        "android_client_info": {
+          "package_name": "za.co.varsitycollege.opsc7312poe.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046978189654-13hkdt9mtk06kvb9j66lqf01kuoltskn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.co.varsitycollege.opsc7312poe.myapplication",
+            "certificate_hash": "2d1593da908ebf1d34633df6f98d8ef0b640c550"
+          }
+        },
+        {
+          "client_id": "1046978189654-1l8h3jc402ijfhdlhp7f3vpvn2tvrl9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4EVWPL2yyJktpkoZl8KhNftAdFZ9zSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046978189654-1l8h3jc402ijfhdlhp7f3vpvn2tvrl9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

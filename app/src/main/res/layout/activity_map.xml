@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/get_started_bg"
+    tools:context=".Map">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_marginTop="-50dp"
+        tools:ignore="VisualLintBounds"
+        android:background="@drawable/get_started_bg" />
+
+
+    <TextView
+        android:id="@+id/nearbySpots"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/habibi"
+        android:text="Nearby spots"
+        android:textAppearance="@style/my_sighting"
+        android:textColor="@color/get_started__color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+ <!--   <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="177dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/hamhlet"
+        android:text=" {Current Location...}"
+        android:textColor="@color/get_started__color"
+        android:textSize="16dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />-->
+
+    <TextView
+        android:id="@+id/toggleSwitchTextView"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="The red marker with the blue dot is your location"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/myMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/home_bg"
+        android:text="Go to My Sightings"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="52dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="1dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back_black"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_below="@id/toggleSwitchTextView"
+        app:mapbox_cameraTargetLat="40.7128"
+        app:mapbox_cameraTargetLng="-74.0060"
+        app:mapbox_cameraZoom="9.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        android:padding="10dp"
+        app:itemIconTint="@drawable/bottom_nav"
+        app:itemTextColor="@drawable/bottom_nav"
+        android:background="@drawable/nav_border"
+        tools:ignore="VisualLintBottomNav" />
+
+
+    <!-- LISTVIEW OF NEARBY SPOTS STILL TO BE IMPLEMENTED-->
+
+</RelativeLayout>

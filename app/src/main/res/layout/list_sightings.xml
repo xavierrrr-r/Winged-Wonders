@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEE1B4"
+    tools:context=".ListSightingActivity">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/home_bg"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/my_sighting"
+        android:layout_width="123dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="-48dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center_horizontal|top"
+        android:text="My Lists"
+        android:textAppearance="@style/my_sighting"
+        android:textSize="18dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="67dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-58dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:layout_marginTop="5dp"
+        android:clipToPadding="false"
+        android:fontFamily="@font/habibi"
+        android:gravity="center_horizontal|top"
+        android:textColor="@color/get_started__color"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck,VisualLintBounds"
+        tools:listitem="@layout/recycler_view_row">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/add_birdBtn"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/add_bird_bg"
+            android:src="@drawable/add_bird"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

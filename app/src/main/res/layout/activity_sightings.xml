@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main"
+    tools:context=".Sightings">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/home_bg"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/my_sighting"
+        android:layout_width="108dp"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/hamhlet"
+        android:gravity="center_horizontal|top"
+        android:text="@string/new_sighting"
+        android:textAppearance="@style/my_sighting"
+        tools:ignore="TextSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/birdNameEditText"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="34dp"
+        android:fontFamily="@font/habibi"
+        android:hint="Bird's Name..."
+        android:textColor="@color/get_started__color"
+        android:textColorHint="@color/get_started__color"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="67dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="1dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="Date Observed..."
+        android:textColor="@color/get_started__color"
+        android:fontFamily="@font/habibi"
+        android:textSize="17dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="36dp"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextContrastCheck,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="180dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:text="Select Date"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txt_selectedDate"
+        android:layout_width="361dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="258dp"
+        android:background="@drawable/nav_border"
+        android:fontFamily="@font/hamhlet"
+        android:text="[Selected Date: ]"
+        android:textColor="@color/get_started__color"
+        android:textSize="16dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/birdImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="318dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/nav_border"
+        tools:ignore="ContentDescription,ImageContrastCheck,InefficientWeight,ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/addPhotoButton"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="409dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:text="Add Photo "
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="177dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="509dp"
+        android:fontFamily="@font/habibi"
+        android:text=" {Current Location...}"
+        android:textColor="@color/get_started__color"
+        android:textSize="16dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="545dp"
+        android:background="@drawable/rectangle_5_shape"
+        android:fontFamily="@font/habibi"
+        android:text="Save"
+        android:textColor="@color/get_started__color"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+
+    <Button
+        android:id="@+id/viewSightings"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/get_started__color"
+        android:fontFamily="@font/habibi"
+        android:text="View Sightings"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        android:padding="10dp"
+        app:itemIconTint="@drawable/bottom_nav"
+        app:itemTextColor="@drawable/bottom_nav"
+        android:background="@drawable/nav_border"
+        tools:ignore="VisualLintBottomNav" />
+
+</RelativeLayout>

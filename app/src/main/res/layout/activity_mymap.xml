@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/get_started_bg"
+    tools:context=".MyMap">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_marginTop="-50dp"
+        tools:ignore="VisualLintBounds"
+        android:background="@drawable/get_started_bg" />
+
+
+    <TextView
+        android:id="@+id/nearbySpots"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/habibi"
+        android:text="Your Sightings"
+        android:textAppearance="@style/my_sighting"
+        android:textColor="@color/get_started__color"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/toggleSwitchTextView"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Your Bird Sightings"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="52dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="1dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/back_black"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_below="@id/toggleSwitchTextView"
+        app:mapbox_cameraTargetLat="40.7128"
+        app:mapbox_cameraTargetLng="-74.0060"
+        app:mapbox_cameraZoom="9.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        android:padding="10dp"
+        app:itemIconTint="@drawable/bottom_nav"
+        app:itemTextColor="@drawable/bottom_nav"
+        android:background="@drawable/nav_border"
+        tools:ignore="VisualLintBottomNav" />
+
+
+    <!-- LISTVIEW OF NEARBY SPOTS STILL TO BE IMPLEMENTED-->
+
+</RelativeLayout>

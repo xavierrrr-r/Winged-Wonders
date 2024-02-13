@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".GetStarted">
+
+    <ImageView
+        android:id="@+id/wing1"
+        android:layout_width="129.5dp"
+        android:layout_height="97.5dp"
+        android:layout_gravity="center|left"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/vector_20"
+        tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/wing2"
+        android:layout_width="129.5dp"
+        android:layout_height="97.5dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/vector_21"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/habibi"
+        android:text="Winged Wonders"
+        android:textColor="@color/get_started__color"
+        android:textSize="38dp"
+        tools:ignore="HardcodedText,SpUsage,VisualLintOverlap">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/gateway"
+        android:layout_width="315.5dp"
+        android:layout_height="29.5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="227dp"
+        android:fontFamily="@font/habibi"
+        android:text="@string/your_gateway_to_avian_wonders_string"
+        android:textColor="@color/welcome_to_winged_wonders___where_every_feathered_friend_has_a_tale_to_tell__start_exploring_the_beauty_of_birds__color"
+        android:textSize="15sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/lovepik_com_401295851_senco_scene_border_1"
+        android:layout_width="424dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="187dp"
+        android:foregroundTint="#F5F1E6"
+        android:src="@drawable/lovepik_com_401295851_senco_scene_border_1"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="470dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="509dp">
+
+        <ImageView
+            android:id="@+id/getStarted_border"
+            android:layout_width="match_parent"
+            android:layout_height="9907dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/rectangle_4_shape"
+            tools:ignore="ContentDescription"></ImageView>
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="331.25dp"
+            android:layout_height="74.25dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="38dp"
+            android:fontFamily="@font/habibi"
+            android:text="Welcome to Winged Wonders - Where Every Feathered Friend has a Tale to Tell. Start Exploring the Beauty of Birds!"
+            android:textColor="#044C26"
+            android:textSize="16.5sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/getStarted"
+        android:text="Get Started"
+        android:font="@font/habibi"
+        android:textSize="17.5sp"
+        android:layout_height="55dp"
+        android:layout_width="280dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/rectangle_5_shape"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+</RelativeLayout>

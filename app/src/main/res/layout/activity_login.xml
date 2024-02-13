@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/titleLogin"
+        android:layout_width="282dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/welcome_back__string"
+        android:textColor="@color/register_ek3_color"
+        android:textSize="36sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/create_an_account"
+        android:layout_width="189dp"
+        android:layout_height="29.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="102dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/login_to_your_account_string"
+        android:textColor="@color/register_ek3_color"
+        android:textSize="15.5sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="324dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="194dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="10dp"
+        android:hint="@string/email_ek1_string"
+        android:padding="11dp"
+        android:textColorHint="@color/white"
+        android:textSize="16.5sp"
+        tools:ignore="Autofill,RtlHardcoded,TextFields" />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="324dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/detail_container"
+        android:fontFamily="@font/habibi"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        android:hint="@string/password_string"
+        android:textColorHint="@color/white"
+        android:textSize="16.5sp"
+        android:padding="11dp"
+        tools:ignore="Autofill,RtlHardcoded,TextFields" />
+
+
+    <TextView
+        android:id="@+id/forgot_your_password_"
+        android:layout_width="169dp"
+        android:layout_height="21.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="202dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/forgot_your_password__string"
+        android:textColor="@color/forgot_your_password__color"
+        android:textSize="14.5sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/rectangle_6_shape"
+        android:font="@font/habibi"
+        android:hint="@string/login_ek3_string"
+        android:textColorHint="@color/white"
+        android:textSize="17.5sp"
+        tools:ignore="HardcodedText,UnusedAttribute,DuplicateSpeakableTextCheck" />
+
+
+    <View   android:id="@+id/line1_login"
+        android:background="@drawable/line_16_shape"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="453dp"
+        android:layout_width="151dp"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/or_login"
+        android:layout_width="29dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/or_string"
+        android:textColor="@color/or_color"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+    <View   android:id="@+id/line2_login"
+        android:background="@drawable/line_17_shape"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="453dp"
+        android:layout_width="151dp"
+        android:layout_height="1dp" />
+
+
+    <ImageView
+        android:id="@+id/bottomImg"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-105dp"
+        android:src="@drawable/lovepik_com_401295851_senco_scene_border_1"
+        tools:ignore="ContentDescription,VisualLintBounds" />
+
+    <ImageButton
+        android:id="@+id/googleButton"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="490dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/google_logo_9827_1"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/facebookButton"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="490dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/logo_facebookpng_32204_1"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/twitterButton"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/logo_twitter_png_5860_1"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/altRegisterTxt"
+        android:layout_width="289dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="568dp"
+        android:fontFamily="@font/habibi"
+        android:gravity="center"
+        android:text="@string/dont_have_an_account"
+        android:textColor="@color/don_t_have_an_account__register_here_color"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded,TextSizeCheck" />
+
+
+</RelativeLayout>

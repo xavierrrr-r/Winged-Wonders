@@ -1,0 +1,62 @@
+<resources>
+    //get started
+    <string name="app_name">WingedWonders</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="welcome_to_winged_wonders___where_every_feathered_friend_has_a_tale_to_tell__start_exploring_the_beauty_of_birds__string">Welcome to Winged Wonders  Where Every Feathered Friend has a Tale to Tell. Start Exploring the Beauty of Birds!</string>
+    <string name="your_gateway_to_avian_wonders_string">YOUR GATEWAY TO AVIAN WONDERS</string>
+    <string name="winged_wonders_string">Winged Wonders </string>
+    <string name="get_started__string">Get Started!</string>
+
+    //register
+    <string name="register_ek3_string">Register</string>
+    <string name="create_an_account_string">Create an account</string>
+    <string name="full_name_string">Full Name</string>
+    <string name="email_ek1_string">Email</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="password_string">Password</string>
+    <string name="register_ek4_string">Register</string>
+    <string name="or_string">  or</string>
+    <string name="have_an_account__login_here_string">Already have an account? Login here</string>
+
+
+    //login
+    <string name="forgot_your_password__string">Forgot your password?</string>
+    <string name="login_ek3_string">LOGIN</string>
+    <string name="dont_have_an_account">Dont have an account? Register here</string>
+
+    <string name="login_to_your_account_string">Login to your account</string>
+    <string name="welcome_back__string">Welcome Back!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    //home
+    <!-- strings.xml -->
+    <string name="hello_user">Hello Sarah Thompson</string>
+    <string name="recent_obse">Recent Observations</string>
+    <string name="view_all">View all </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //sightings
+    <string name="new_sighting">New Sighting</string>
+
+    //settings
+    <!-- settings strings -->
+    <string name="sightings_string">Sightings</string>
+    <string name="birds_seen_string">Birds Seen</string>
+    <string name="edit_profile_string">Edit Profile</string>
+    <string name="A5">A5</string>
+    <string name="A11">A11</string>
+    <string name="settings_ek3_string">Settings</string>
+    <string name="sarah_thompson_string">Sarah Thompson</string>
+    <string name="e_mail_string">E-mail</string>
+    <string name="sarahthompson_gmail_com_string">sarahthompson@gmail.com</string>
+    <string name="metric_system_string">Metric System</string>
+    <string name="km_string">Km</string>
+    <string name="notifications_ek1_string">Notifications</string>
+    <string name="logout_string">Logout</string>
+
+    //Mapbox
+    <string name="mapbox_access_token">pk.eyJ1IjoidHJpc3RhbnN0IiwiYSI6ImNsbGx4Z2c2bDBsZ2MzbW5mOHpya3Y1bnEifQ.A7MCwXTujPZ3XZ-5_Hpovg</string>
+</resources>

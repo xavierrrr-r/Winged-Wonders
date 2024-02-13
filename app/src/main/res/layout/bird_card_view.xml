@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="@color/get_started__color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/imagePlaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bird"
+                android:contentDescription="Image Placeholder" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/hamhlet"
+            android:text="Kingfisher"
+            android:textColor="#83B295"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:text="Gauteng, ZA"
+            android:textColor="#34995B"
+            android:fontFamily="@font/habibi" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
